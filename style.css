@@ -1,0 +1,88 @@
+.custom-header {
+    background-color: #0a0b27;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.custom-logo {
+    width: 110px;
+    height: 29px;
+    margin-left: 20px;
+}
+
+.custom-nav {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.custom-nav:hover {
+    background-color: #333; 
+}
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+.cont2a{
+    position: relative;
+    background-color: black;
+    width: 55%;
+    height: 900px;
+}
+.cont2a h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+    position: relative;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    left: 4.5%;
+    top: 40%;
+    letter-spacing: 3px;
+    z-index: 1;
+}
+.text1{
+    height: 100%;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 90px;
+    color: #000;
+    font-weight: 500;
+    font-family: "EksellDisplayWeb-Small";
+ }
+ .footer{
+    display: flex;
+}
+.footer1{
+    padding-left: 90px;
+    padding-top: 70px;
+}
+.footer2{
+    padding-left: 90px;
+    padding-top: 70px;
+}
+.footer3{
+    padding-left: 90px;
+    padding-top: 70px;
+    margin-bottom: 60px;
+}
+.social{
+    display: flex;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .footer{
+      background-color: lightblue;
+    }
+  }
